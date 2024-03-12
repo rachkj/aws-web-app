@@ -25,18 +25,16 @@
   import json  <br />
   // import the Python math library  <br />
   import math  <br />
-  
   // define the handler function that the Lambda service will use an entry point  <br />
   def lambda_handler(event, context):  <br />
-  
   // extract the two numbers from the Lambda service's event object  <br />
-      mathResult = math.pow(int(event['base']), int(event['exponent']))  <br />
+  mathResult = math.pow(int(event['base']), int(event['exponent']))  <br />
   
-      # return a properly formatted JSON object  <br />
-      return {  <br />
-      'statusCode': 200,  <br />
-      'body': json.dumps('Your result is ' + str(mathResult))  <br />
-      }  <br />
+  // return a properly formatted JSON object  <br />
+  return {  <br />
+  'statusCode': 200,  <br />
+  'body': json.dumps('Your result is ' + str(mathResult))  <br />
+  }  <br />
 2. Save the code and then click on 'Deploy'.  <br />
 3. Create a test event. Give a name and use the JSON in the format:  <br />
    {  <br />

@@ -2,22 +2,22 @@
 
 ## AWS Amplify:
 1. Create an index.html file which has some basic data such as: <br />
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <meta charset="UTF-8">
-      <title>To the Power of Math!</title>
-  </head>
+  <!DOCTYPE html>  <br />
+  <html>  <br />
+  <head>  <br />
+      <meta charset="UTF-8">  <br />
+      <title>To the Power of Math!</title>  <br />
+  </head>  <br />
   
-  <body>
-      To the Power of Math!
-  </body>
-  </html>
-2. Save it and create a zip version of this file: index.zip.
-3. Select AWS Amplify on the Console and create 'New App'.
-4. Select 'Deploy without Git Provider', and give a name: "powerOfMath"
-5.Give environment as "dev" and drag and drop the index.zip.
-6. Wait until deployment is successful. Click on the 'Domain' URL to see the webpage launced using Amplify.
+  <body>  <br />
+      To the Power of Math!  <br />
+  </body>  <br />
+  </html>  <br />
+2. Save it and create a zip version of this file: index.zip.  <br />
+3. Select AWS Amplify on the Console and create 'New App'.  <br />
+4. Select 'Deploy without Git Provider', and give a name: "powerOfMath".  <br />
+5.Give environment as "dev" and drag and drop the index.zip.  <br />
+6. Wait until deployment is successful. Click on the 'Domain' URL to see the webpage launced using Amplify.  <br />
 
 ## AWS Lambda:
 1. Select AWS Lambda from the console and create a new function. Give a function name: 'poweOfMathFunction' and select the runtime to be Python. Click on 'Create Function'. In the code section add the below code:

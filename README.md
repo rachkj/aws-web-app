@@ -1,7 +1,7 @@
 # Steps Followed:
 
 ## AWS Amplify:
-1. Create an index.html file which has some basic data such as:
+1. Create an index.html file which has some basic data such as: <br />
   <!DOCTYPE html>
   <html>
   <head>

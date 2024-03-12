@@ -21,15 +21,15 @@
 
 ## AWS Lambda:
 1. Select AWS Lambda from the console and create a new function. Give a function name: 'poweOfMathFunction' and select the runtime to be Python. Click on 'Create Function'. In the code section add the below code:  <br />
-  # import the JSON utility package  <br />
+  // import the JSON utility package  <br />
   import json  <br />
-  # import the Python math library  <br />
+  // import the Python math library  <br />
   import math  <br />
   
-  # define the handler function that the Lambda service will use an entry point  <br />
+  // define the handler function that the Lambda service will use an entry point  <br />
   def lambda_handler(event, context):  <br />
   
-  # extract the two numbers from the Lambda service's event object  <br />
+  // extract the two numbers from the Lambda service's event object  <br />
       mathResult = math.pow(int(event['base']), int(event['exponent']))  <br />
   
       # return a properly formatted JSON object  <br />

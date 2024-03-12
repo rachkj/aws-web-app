@@ -31,3 +31,11 @@
    }  <br />
  7. Click on Test and see if you get a 200 response with the result.  <br />
 
+ ## DynamoDB: <br />
+ 1. Create Table: powerOfMathDatabase and Partition Key: ID  <br />
+ 2. Click on Create Table. Under 'Additional Info', copy the ARN and save it for later use.  <br />
+ 3.  Add permissions related to the DynamoDB under Lambda configurations. Select Role name -> add permisions -> Create inline policy. Copy the policy.txt data here. The ARN here has to be the ARN you saved previously. Give it a name.  <br />
+ 4.  Test Lambda function again with update dLambda code as shown in lambda.py.  <br />
+
+Update index.html as pushed to connect tAmplify with API Gateway. Ensure the fetch URL is updated based on the Invoker URL you had copied previously. Create a new zip and redeploy in Amplify. Click on domain and now you should see the app running successfully.
+
